@@ -1,4 +1,4 @@
-![image](https://github.com/gigantessbeta/MoneyPlus-Peripheral-Plugin/blob/master/image.jpg)
+![image](https://github.com/gigantessbeta/MoneyPlus-Peripheral-Plugins/blob/master/image.jpg)
   
   
 #### あなたのサーバーに経済要素を追加します。  
