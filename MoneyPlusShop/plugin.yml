@@ -1,0 +1,10 @@
+name: MoneyPlusShop
+main: GE\moneyplusshop\MoneyPlusShop
+version: 0.0.1
+load: POSTWORLD
+author: gigantessbeta
+description: SHOP plugin.(MoneyPlus)
+api:
+- 3.0.0
+- 2.0.0
+- 2.1.0

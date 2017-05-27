@@ -1,0 +1,14 @@
+name: MoneyPlusJob
+main: GE\moneyplusjob\MoneyPlusJob
+version: 0.0.1
+load: POSTWORLD
+author: gigantessbeta
+description: Job plugin.(MoneyPlus)
+api:
+- 3.0.0
+- 2.0.0
+- 2.1.0
+commands:
+ mjob:
+  description: main command.
+  usage: "Usage: /mjob {subcommand}"
