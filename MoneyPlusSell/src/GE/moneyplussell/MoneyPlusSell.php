@@ -80,7 +80,7 @@ class MoneyPlusSell extends PluginBase implements Listener{
 			$player = $event->getPlayer();
 			if($this->s->getData("no-creative") != false){
 				if($player->getGamemode() == 1){
-					$player->sendMessage(MoneyPlusShop::Prefix."§cクリエイティブモードでは商品を買えません。");
+					$player->sendMessage(MoneyPlusSell::Prefix."§cクリエイティブモードでは商品を売れません。");
 					return true;
 				}
 			}
