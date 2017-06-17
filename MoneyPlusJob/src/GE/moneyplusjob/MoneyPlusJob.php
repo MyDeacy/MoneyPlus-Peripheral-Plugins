@@ -110,9 +110,10 @@ class MoneyPlusJob extends PluginBase implements Listener{
 						break;
 
 						case "unregister":
-							if(!$this->c->exists($args[1])){
+							$name = $sender->getName();
+							if($this->config->exists($name)){
 								$sender->sendMessage(MoneyPlusJob::Prefix."職業を辞めました。 ");
-									$this->config->remove($sender->getName(), $args[1]);
+									$this->config->remove($name);
 									$this->config->save();
 							}else{
 							$sender->sendMessage(MoneyPlusJob::Prefix."あなたは職業に就いていません。 /mjob check");
